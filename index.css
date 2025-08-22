@@ -62,3 +62,42 @@
   border: 1px solid #504869;
   box-shadow: 1.5px 1.5px 2px #808080;
 }
+
+/* Estilos para a tabela de IMC */
+#tabela-imc {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+#tabela-imc th,
+#tabela-imc td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#tabela-imc th {
+  background-color: #3B64CE;
+  color: white;
+  font-weight: bold;
+}
+
+#tabela-imc tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#tabela-imc tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Classe para destacar a linha do IMC calculado */
+.destaque-imc {
+  background-color: #ffeb3b !important;
+  font-weight: bold;
+  box-shadow: 0 0 5px rgba(255, 235, 59, 0.7);
+}
+
+.destaque-imc td {
+  border: 2px solid #ffc107;
+}
